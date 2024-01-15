@@ -1,0 +1,49 @@
+.cardLi {
+    border: 2px solid var(--color-grey3);
+    min-width: 18.25rem;
+    align-items: center;
+    border-radius: 8px;
+
+    &:hover {
+        border-color: var(--color-green);
+
+        button {
+            background-color: var(--color-green);
+        }
+    }
+
+    button {
+        display: flex;
+        width: max-content;
+        background-color: var(--color-grey2);
+        padding: 0.7rem 1.3rem;
+        border-radius: 8px;
+    }
+}
+
+.cardLiAdd {
+    border-color: var(--color-green);
+
+    button {
+        background-color: var(--color-green);
+    }
+}
+
+.img {
+    width: 50%;
+}
+
+.divImg {
+    background-color: var(--color-grey1);
+    display: flex;
+    justify-content: center;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.cardInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
